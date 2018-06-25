@@ -13,7 +13,7 @@ import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
-
+// import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -26,6 +26,7 @@ import { CardComponent } from './card/card.component';
     HttpModule,
     // RouterModule.forRoot(ROUTES),
     MaterialModule
+    // AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
   test: boolean;
   title: string = 'Video Title';
-  postedOn: string = 'Video Post Date'; // Probably a string
-  description: string = 'Video Description';
+  postedOn: string = '01/01/2018'; // Probably a string
+  description: string = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
   constructor() { }
 
   ngOnInit() {

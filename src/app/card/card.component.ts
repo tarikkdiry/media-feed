@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
   test: boolean;
-  postedOn: string;
+  title: string = 'Video Title';
+  postedOn: string = 'Video Post Date'; // Probably a string
+  description: string = 'Video Description';
   constructor() { }
 
   ngOnInit() {
   }
-
-
 
 }

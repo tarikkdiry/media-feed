@@ -13,12 +13,14 @@ import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
+import { HomeCardComponent } from './home-card/home-card.component';
 // import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    HomeCardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,110 @@
+/** MEDIA FEED CSS **/
+
+.mediafeed--container {
+	display: inline;
+	/**
+	display: flex;
+	align-content: baseline;
+    -webkit-align-content: baseline;
+	flex: 1;
+	-webkit-flex: 1;
+	flex-direction: row;
+    flex-wrap: wrap;
+    **/
+}
+
+.mediafeed--item {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 25px 25px 0px;
+	background: #EEEEEE;
+	width: 250px;
+}
+
+.mediafeed--item .item--header {
+	width: inherit;
+	height: 120px;
+	background: #ccc;
+}
+
+.mediafeed--item .item--header img {
+	width: 100%;
+}
+
+.mediafeed--item .item--body,
+.mediafeed--item .item--footer {
+	padding: 10px;
+}
+
+.mediafeed--item .item--body h2 {
+	color: #EF4E45;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 20px auto 5px;
+}
+
+.mediafeed--item .item--body p {
+	color: #77756F;
+	font-size: 13px;
+}
+
+.mediafeed--item .media--type {
+	width: inherit;
+	height: 50px;
+	position: absolute;
+	margin: 63px auto auto 5px;
+}
+
+.mediafeed--item .media--type.item--audio {
+	background: url("https://colleagueconnect.mmc.com/communities/ColleagueConnectDesign/Style%20Library/Scripts/ContentFiles/CommunityContentFiles/Media%20Feed/audio-player.svg") bottom left repeat-x;
+}
+
+.mediafeed--item .media--type.item--video {
+	background: url("https://colleagueconnect.mmc.com/communities/ColleagueConnectDesign/Style%20Library/Scripts/ContentFiles/CommunityContentFiles/Media%20Feed/video-player.svg") bottom left no-repeat;
+}
+
+.mediafeed--item .play--icon {
+	opacity: 0.7;
+	margin: 88px 100px;
+	width: 60px;
+	position: absolute;
+}
+
+.mediafeed--item .play--icon:hover {opacity: 0.85;}
+
+.mediafeed--item .footer--button {
+	width: 42%;
+	display: inline-block;
+	color: #EF4E45 !important;
+	padding-left: 0px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0.85;
+}
+.mediafeed--item .footer--button.active:hover {
+	opacity: 1.0;
+	text-decoration: underline;
+}
+
+.mediafeed--item .footer--button:hover {text-decoration: none !important;}
+.mediafeed--item .footer--button.inactive {
+	opacity: 0.3;
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+.mediafeed--item .footer--button img {
+	width: 9px;
+	position: relative;
+	top: 2px;
+}
+
+@media (max-width: 768px) {
+
+	.mediafeed--item {
+		width: 100%;
+	}
+	
+}

@@ -1,24 +1,3 @@
-<md-card>
-  <md-card-header>
-    <div class="video-space">
-      
-    </div>
-  </md-card-header>
-  <br>
-  <md-card-content>
-    <md-card-title style="color: #EF7E78;"><strong>{{ title }}</strong></md-card-title>
-    <md-card-subtitle style="font-size: 12px;"><strong>Posted on {{ postedOn }}</strong></md-card-subtitle>
-    <br>
-    <md-card-subtitle style="font-size: 12px;">{{ description }}</md-card-subtitle>
-
-  </md-card-content>
-  <md-card-actions>
-    <button md-button style="color: #EF7E78;"><i class="fa fa-play"></i><strong>Play</strong></button>
-    <button md-button style="color: #EF7E78;"><i class="fa fa-play"></i><strong>Download</strong></button>
-  </md-card-actions>
-</md-card>
-<br>
-
 <div ng-app="MediaFeed" ng-controller="MainCtrl">
 
 	<script src="https://colleagueconnect.mmc.com/communities/ColleagueConnectDesign/Style%20Library/Scripts/ContentFiles/CommunityContentFiles/Media%20Feed/angular.min.js"></script> 

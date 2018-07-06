@@ -1,8 +1,8 @@
 <div ng-app="MediaFeed" ng-controller="MainCtrl">
 
-	<script src="https://colleagueconnect.mmc.com/communities/ColleagueConnectDesign/Style%20Library/Scripts/ContentFiles/CommunityContentFiles/Media%20Feed/angular.min.js"></script> 
-	<script src="https://colleagueconnect.mmc.com/communities/ColleagueConnectDesign/Style%20Library/Scripts/ContentFiles/CommunityContentFiles/Media%20Feed/MediaFeed.js"></script> 
-	<link href="https://colleagueconnect.mmc.com/communities/ColleagueConnectDesign/Style%20Library/Scripts/ContentFiles/CommunityContentFiles/Media%20Feed/MediaFeed.css" rel="stylesheet" />
+	<script src="https://colleagueconnect.uat.mmc.com/en-us/SiteAssets/MediaFeed/angular.min.js"></script> 
+	<script src="https://colleagueconnect.uat.mmc.com/en-us/SiteAssets/MediaFeed/MediaFeed.js"></script> 
+	<link href="https://colleagueconnect.uat.mmc.com/en-us/SiteAssets/MediaFeed/MediaFeed.css" rel="stylesheet" />
 
 	
 	<div class="mediafeed--container">
